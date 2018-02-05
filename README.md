@@ -30,9 +30,4 @@ ReTouch is an OpenGL application that enables editing and retouching of images u
 
 > Tested on macOS (10.13.2) using CMake (3.10.0)
 
-## Future Work
-1. Implement the same functionality in a mobile application (GLKit, iOS)
-1. Use coreml-tools to convert the ML model so it could predict on an iOS device
-1. Add more "depth-filters" that could be used (e.g keying out backgrounds)
-
 > ReTouch was developed under the advisement of Prof. [Ken Perlin](https://github.com/futurerealitylab) and Prof. [Daniele Panozzo](https://github.com/danielepanozzo) @ NYU, Special thanks to [Shirin Anlen](http://shirin.works)
