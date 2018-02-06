@@ -29,8 +29,14 @@ To install start by forking the repo using ```--recursive``` flag, to clone subm
 git clone https://github.com/juniorxsound/ReTouch --recursive
 ```
 Once you have the repo cloned, make sure you have [CMake](https://cmake.org) installed. Create a directory titled ```build/``` in the root folder of the repo, ```cd``` into that folder and run
-```cmake ../```
-Once CMake finshes you can easily run ```make``` to build a new executable and run it by calling ```./ReTouch``` in the build folder
+```
+cmake ../
+```
+Once CMake finshes you can easily run 
+```
+make
+``` 
+to build a new executable and run it by calling ```./ReTouch``` in the build folder
 
 ## Dependencies
 - [GLFW](https://github.com/glfw/glfw)
