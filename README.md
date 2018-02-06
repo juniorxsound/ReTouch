@@ -4,7 +4,6 @@ ReTouch is an OpenGL application that enables editing and retouching of images u
 1. [Demo Video](https://www.youtube.com/watch?v=CAsy_jm85ZY)
 1. [Features](#features)
 1. [Dependencies](#dependencies)
-1. [Future Development](#future-work)
 
 ![Editor](https://github.com/juniorxsound/ReTouch/blob/master/resources/editor.gif)
 
