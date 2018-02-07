@@ -24,7 +24,7 @@ ReTouch is an OpenGL application that enables editing and retouching of images u
 
 ## Installation
 
-To install start by forking the repo using ```--recursive``` flag, to clone submodules too. e.g
+To install start by cloning the repo using ```--recursive``` flag, to clone submodules too. e.g
 ```
 git clone https://github.com/juniorxsound/ReTouch --recursive
 ```
