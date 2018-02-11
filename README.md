@@ -5,6 +5,7 @@ ReTouch is an OpenGL application that enables editing and retouching of images u
 1. [Features](#features)
 1. [Installation](#installation)
 1. [Dependencies](#dependencies)
+1. [License](#license)
 
 ![Editor](https://github.com/juniorxsound/ReTouch/blob/master/resources/editor.gif)
 
@@ -47,3 +48,6 @@ to build a new executable and run it by calling ```./ReTouch``` in the build fol
 > Tested on macOS (10.13.2) using CMake (3.10.0)
 
 > ReTouch was developed under the advisement of Prof. [Ken Perlin](https://github.com/futurerealitylab) and Prof. [Daniele Panozzo](https://github.com/danielepanozzo) @ NYU, Special thanks to [Shirin Anlen](http://shirin.works)
+
+## License
+Attached [here](https://github.com/juniorxsound/ReTouch/blob/master/LICENSE)
