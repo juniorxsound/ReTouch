@@ -23,18 +23,18 @@ matrix:
             - g++-4.8
             - cmake
             - cmake-data
-           # - libblas-dev
-           # - liblapack-dev
-           #  - binutils
-           #  - libx11-dev
-           #  - mesa-common-dev
-           #  - libgl1-mesa-dev
-           #  - libglu1-mesa-dev
-           #  - libxrandr-dev
-           #  - libxi-dev
-           #  - libxmu-dev
-           #  - libblas-dev
-           #  - xorg-dev
+           - libblas-dev
+           - liblapack-dev
+            - binutils
+            - libx11-dev
+            - mesa-common-dev
+            - libgl1-mesa-dev
+            - libglu1-mesa-dev
+            - libxrandr-dev
+            - libxi-dev
+            - libxmu-dev
+            - libblas-dev
+            - xorg-dev
     - os: osx
       compiler: clang
       script:
