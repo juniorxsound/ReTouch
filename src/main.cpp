@@ -1,3 +1,7 @@
+//App components
+#include "DepthImage.h"
+#include "Renderer.h"
+
 //Include NanoGUI for simple GUI
 #include <nanogui/nanogui.h>
 
@@ -18,9 +22,6 @@ typedef Eigen::MatrixXf mat;
 #include <iostream>
 #include <string>
 #include <vector>
-
-#include "Renderer.h"
-#include "DepthImage.h"
 
 //Depth of Field states
 bool toggleColorDepth = false; // Debug: show depth-map
