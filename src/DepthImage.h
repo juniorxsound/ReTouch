@@ -1,6 +1,8 @@
 #ifndef _DEPTH_PLAYER_H_
 #define _DEPTH_PLAYER_H_
 
+#include <nanogui/nanogui.h>
+
 //Eigen Linear Algebra library
 #include <Eigen/Core>
 
