@@ -1,15 +1,14 @@
 #ifndef _RENDERER_H_
 #define _RENDERER_H_
 
+#ifndef __APPLE__
+#  include <GL/glew.h>
+#endif
+
 #include <nanogui/nanogui.h>
 
 //GLFW
 #include <GLFW/glfw3.h>
-
-#ifndef __APPLE__
-#  define GLEW_STATIC
-#  include <GL/glew.h>
-#endif
 
 //STD
 #include <iostream>
