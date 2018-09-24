@@ -1,5 +1,5 @@
+#include <nanogui/nanogui.h>
 #include "Helpers.h"
-
 #include <iostream>
 #include <fstream>
 
