@@ -1,6 +1,10 @@
 #ifndef _RENDERER_H_
 #define _RENDERER_H_
 
+#ifndef __APPLE__
+#  include <GL/glew.h>
+#endif
+
 #include <nanogui/nanogui.h>
 
 //GLFW

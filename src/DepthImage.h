@@ -1,12 +1,14 @@
 #ifndef _DEPTH_PLAYER_H_
 #define _DEPTH_PLAYER_H_
 
-//Eigen Linear Algebra library
-#include <Eigen/Core>
-
 //Helper file to keep this clean!
 #include "Helpers.h"
 #include "Shader.h"
+
+#include <nanogui/nanogui.h>
+
+//Eigen Linear Algebra library
+#include <Eigen/Core>
 
 //std
 #include <stdio.h>

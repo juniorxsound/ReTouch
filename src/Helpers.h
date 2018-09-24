@@ -5,16 +5,16 @@
 #include <vector>
 #include <Eigen/Core>
 
+#ifndef __APPLE__
+#  define GLEW_STATIC
+#  include <GL/glew.h>
+#endif
+
 #ifdef _WIN32
 #  include <windows.h>
 #  undef max
 #  undef min
 #  undef DrawText
-#endif
-
-#ifndef __APPLE__
-#  define GLEW_STATIC
-#  include <GL/glew.h>
 #endif
 
 #ifdef __APPLE__

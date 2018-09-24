@@ -67,7 +67,7 @@ void Renderer::setupWindow() {
     glfwMakeContextCurrent(window);
 
 #ifndef __APPLE__
-    glewExperimental = true;
+    // glewExperimental = true;
     GLenum err = glewInit();
     if (GLEW_OK != err)
     {
