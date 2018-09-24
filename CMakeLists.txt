@@ -12,14 +12,6 @@ endif()
 
 set(LIBRARIES "")
 
-### On windows, you also need glew
-if((UNIX AND NOT APPLE) OR WIN32)
-  set(GLEW_INSTALL OFF CACHE BOOL " " FORCE)
-  add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/ext/glew" "glew")
-  include_directories("${CMAKE_CURRENT_SOURCE_DIR}/ext/glew/include")
-  list(APPEND LIBRARIES "glew")
-endif()
-
 # Disable building extras we won't need (pure C++ project)
 set(NANOGUI_BUILD_EXAMPLE OFF CACHE BOOL " " FORCE)
 set(NANOGUI_BUILD_PYTHON  OFF CACHE BOOL " " FORCE)
@@ -45,6 +37,14 @@ include_directories(${NANOGUI_EXTRA_INCS})
 
 # Add referecne
 include_directories("${CMAKE_CURRENT_SOURCE_DIR}/ext/nanogui/include")
+
+### On windows, you also need glew
+if((UNIX AND NOT APPLE) OR WIN32)
+  set(GLEW_INSTALL OFF CACHE BOOL " " FORCE)
+  add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/ext/glew" "glew")
+  include_directories("${CMAKE_CURRENT_SOURCE_DIR}/ext/glew/include")
+  list(APPEND LIBRARIES "glew")
+endif()
 
 ### Compile all the cpp files in src
 file(GLOB SOURCES

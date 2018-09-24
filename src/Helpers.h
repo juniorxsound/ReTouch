@@ -14,7 +14,7 @@
 
 #ifndef __APPLE__
 #  define GLEW_STATIC
-#  include <GL/glew.h>
+// #  include <GL/glew.h>
 #endif
 
 #ifdef __APPLE__
