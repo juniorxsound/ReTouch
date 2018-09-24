@@ -5,6 +5,11 @@
 #include <vector>
 #include <Eigen/Core>
 
+#ifndef __APPLE__
+#  define GLEW_STATIC
+#  include <GL/glew.h>
+#endif
+
 #ifdef _WIN32
 #  include <windows.h>
 #  undef max
@@ -20,11 +25,6 @@
 #       include <windows.h>
 #   endif
 #   include <GL/gl.h>
-#endif
-
-#ifndef __APPLE__
-#  define GLEW_STATIC
-#  include <GL/glew.h>
 #endif
 
 class ElementArrayObject{
